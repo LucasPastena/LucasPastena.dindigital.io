@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">    
+<title>BisLite</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="BisLite">
+<meta name="author" content="BisLite">
+<meta name="keywords" content="BisLite" />
+    
+<link rel="stylesheet" href="css/style.css" media="all" />
+<script src="js/bootstrap.js" ></script>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="Logo BisLite" title="BisLite"></a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="index.php" >HOME</a></li>
+				<li><a href="#">ABOUT US</a></li>
+				
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">SERVICES <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Web Desgin</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Wordpress Design</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Mobile app development</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Internet Marketing</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Social Media Management</a></li>
+			
+					</ul>
+				</li>		
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PORTFOLIO<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Websites</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Wordpress</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Mobile Apps</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Icons</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Logos</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Graphics</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Social Media Management</a></li>
+			
+					</ul>
+				</li>
+				<li><a href="#">BLOG</a></li>
+				<li><a href="#">CONTACT US</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<div class="row" style="background:#81e4ed; padding:10px 0px 10px 0px;">
+	<div class="container" style="overflow:hidden;">
+  
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+ 
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>
+			</ol>
+
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="images/slide.jpg" alt="Slide 1" title="Slide 1">
+				</div>
+
+				<div class="item">
+					<img src="images/slide.jpg" alt="Slide 2" title="Slide 2">
+				</div>
+				<div class="item">
+					<img src="images/slide.jpg" alt="Slide 3" title="Slide 3">
+				</div>
+				<div class="item">
+					<img src="images/slide.jpg" alt="Slide 4" title="Slide 4">
+				</div>
+				<div class="item">
+					<img src="images/slide.jpg" alt="Slide 5" title="Slide 5">
+				</div>
+			</div>
+
+			  
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12" style="background-color:#e8ebf1; padding:20px 0px 20px 0px;" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" style="padding:5px;"> 
+                    <div style="float:left;"><img src="images/clean-theme.png" alt="Clean Theme"></div> 
+                    <div style="float:left; margin-left:20px; margin-top:-6px;"><h2>CLEAN THEME</h2></div>
+                      
+                    <div class="caption" style="float:left; margin-top:20px;">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
+                        <p><a href="#" title="Saiba mais sobre o Clean Theme"><img src="images/link.png" alt="Saiba Mais"> Read More</a></p>
+                    </div>
+                </div>
+				   
+				<div class="col-md-3"  style="padding:5px;"> 
+                    <div style="float:left;"><img src="images/responsive-design.png" alt="Responsive Design"></div> 
+                    <div style="float:left; margin-left:20px; margin-top:-6px;"><h2>RESPONSIVE DESIGN</h2></div>
+                      
+                    <div class="caption" style="float:left; margin-top:20px;">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
+						<p><a href="#" title="Saiba mais"><img src="images/link.png" alt="Saiba Mais"> Read More</a></p>
+                    </div>
+                </div>
+
+				<div class="col-md-3"  style="padding:5px;"> 
+                    <div style="float:left;"><img src="images/fully-layered-psd.png" alt="Fully Layered PSD"></div> 
+                    <div style="float:left; margin-left:20px; margin-top:-6px;"><h2>FULLY LAYERED PSD</h2></div>
+                      
+                    <div class="caption" style="float:left; margin-top:20px;">
+                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
+						<p><a href="#" title="Saiba Mais"><img src="images/link.png" alt="Saiba Mais"> Read More</a></p>
+                    </div>
+				</div>
+				   
+				<div class="col-md-3"  style="padding:5px;"> 
+                    <div style="float:left;"><img src="images/ready-for-coding.png" alt="Fully Layered PSD"></div> 
+                    <div style="float:left; margin-left:20px; margin-top:-6px;"><h2>READY FOR CODING</h2></div>
+                      
+                    <div class="caption" style="float:left; margin-top:20px;">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
+						<p><a href="#" title="Saiba Mais"><img src="images/link.png" alt="Saiba Mais"> Read More</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+	
+    <div class="container" style="border-bottom:solid 1px #dfe1e5; margin-bottom:10px; padding:10px;">
+        <div style="float:left;"><img src="images/latest-works.png" alt="Latest Works"></div> 
+        <div style="float:left; margin-left:20px; margin-top:-12px;"><h2>LATEST WORKS</h2></div>   
+    </div>
+
+    <div class="container portfolio" style="overflow:hidden; display:table;">
+        <div id="carousel-thingy" class="carousel slide" data-interval="false">
+			<div class="carousel-inner">
+				<div class="item active">
+				    <ul class="reset clearfix">
+						<div class="col-md-3 col-xs-3 prod1"> 
+							<input type="radio" name="product" id="product-1" value="a">
+							<label for="product-1">  
+								<a href="#"><img src="images/portfolio-1.jpg" alt="Portfolio 1" title="Portfolio 1"></a>
+							</label>
+						</div>
+						<div class="col-md-3 col-xs-3 prod2"> 
+							<input type="radio" name="product" id="product-2" value="b">
+							<label for="product-2">  
+								<a href="#"><img src="images/portfolio-2.jpg" alt="Portfolio 2" title="Portfolio 2"></a>	
+							</label>
+						</div>
+						<div class="col-md-3 col-xs-3 prod3"> 
+							<input type="radio" name="product" id="product-3" value="c">
+							<label for="product-3">  
+								<a href="#"><img src="images/portfolio-3.jpg" alt="Portfolio 3" title="Portfolio 3"></a>
+							</label>
+						</div>
+						<div class="col-md-3 col-xs-3 prod4"> 
+							<input type="radio" name="product" id="product-4" value="d">
+							<label for="product-4">  
+								<a href="#"><img src="images/portfolio-4.jpg" alt="Portfolio 4" title="Portfolio 4"></a>
+							</label>
+						</div>
+					</ul>
+				</div>
+				<div class="item">
+					<ul class="reset clearfix">
+						<div class="col-md-3 col-xs-3 prod5"> 
+							<input type="radio" name="product" id="product-5" value="e">
+							<label for="product-5">  
+								<a href="#"><img src="images/portfolio-2.jpg" alt="Portfolio 2" title="Portfolio 2"></a>
+							</label>
+						</div>
+						<div class="col-md-3 col-xs-3 prod6">
+						<input type="radio" name="product" id="product-6" value="f">
+							<label for="product-6">  
+								<a href="#"><img src="images/portfolio-1.jpg" alt="Portfolio 1" title="Portfolio 1"></a>
+							</label>
+						</div>
+						<div class="col-md-3 col-xs-3 prod7"> 
+							<input type="radio" name="product" id="product-7" value="g">
+							<label for="product-7">  
+								<a href="#"><img src="images/portfolio-4.jpg" alt="Portfolio 4" title="Portfolio 4"></a>
+							</label>
+						</div>
+					
+						<div class="col-md-3 col-xs-3 prod8">
+							<input type="radio" name="product" id="product-8" value="g">
+							<label for="product-8">  
+								<a href="#"><img src="images/portfolio-3.jpg" alt="Portfolio 3" title="Portfolio 3"></a>
+							</label>
+						</div>
+					</ul>
+				</div>
+			</div>
+			<a class="carousel-control left sprite" href="#carousel-thingy" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+			<a class="carousel-control right sprite" href="#carousel-thingy" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+		</div>                         
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="container" style="padding:10px; margin-top:10px; border-top: solid 1px #dfe1e5;">
+		<div class="col-md-6 testmonials" style="padding:10px 0px 10px 0px;">   
+			<div style="float:left;"><img src="images/testmonials.png" alt="Testmonials"></div> 
+			<div style="float:left; margin-left:18px; margin-top:-12px;"><h2>TESTIMONIALS</h2></div>
+			
+			<div style="float:left; padding-right:20px;">
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.</p>
+				<p><strong><i>John Travis, CEO, DomainName.com</i></strong></p>
+			</div>
+		</div>
+ 
+ 
+		<div class="col-md-6" style="padding:10px 0px 10px 0px; ">   
+			<div style="float:left;"><img src="images/our-clients.png" alt="Our Clients"></div> 
+			<div style="float:left; margin-left:20px; margin-top:-12px;"><h2>OUR CLIENTS</h2></div>
+
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clientes" style=" padding:0px;">
+					
+				<img src="images/cliente-cox.jpg" alt="Cliente Cox" title="Cliente Cox" class="img-responsive"> 
+				<img src="images/cliente-cnn.jpg" alt="Cliente CNN" title="Cliente CNN" class="img-responsive"> 
+				<img src="images/cliente-apartment-finder.jpg" alt="Cliente Apartment Finder" title="Cliente Apartment Finder" class="img-responsive"> 
+				<img src="images/cliente-john-deere.jpg" alt="Cliente John Deere" title="Cliente John Deere" class="img-responsive"> 
+				<img src="images/cliente-banana-boat.jpg" alt="Cliente Banana Boat" title="Cliente Banana Boat" class="img-responsive">
+				<img src="images/cliente-fujifilm.jpg" alt="Cliente Fujifilm" title="Cliente Cliente Fujifilm" class="img-responsive">  
+			</div>
+	   </div>
+	</div>	
+</div>
+
+
+<div class="container download">
+    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="padding:0px;">
+		<p>This is a clean and modern, four column website PSD template. You can code it into a Wordpress website, HTML5 responsive website for your personal or client works. So ahead and download this wonderful PSD template!</p>
+    </div>
+    
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 botao" style="padding:0px;"">
+      <a href="#">DOWNLOAD PSD</a>
+    </div>
+</div>
+
+
+<div class="row footer" >
+	<div class="container" style="padding:10px 0px 10px 0px;">
+	
+		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="padding:0px;">
+			<h2>ABOUT US</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod placerat dui et tincidunt. Sed sollicitudin posuere auctor. Phasellus at ultricies nisl. Integer at leo eros. Ut nec lorem id orci convallis porta. Donec pharetra neque eu velit dictum molestie.</p>
+		</div>
+	
+		<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 explore" style="padding:0px;">
+			<h2>EXPORE</h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Blog</a></li>
+			</ul>
+		</div>
+	
+		<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 browse" style="padding:0px;">
+			<h2>BROWSE</h2>
+			<ul>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Press & media</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="#">Terms Of Service</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+			</ul>
+		</div>	
+	
+		<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 contact" style="padding:0px;">
+			<h2>CONTACT US</h2>
+			<p><strong>BisLite Inc.</strong></br>
+				Always Street 265</br>
+				0X - 125 - Canada</br></br>
+				Phone: 987-6543-210</br>
+				Fax: 987-6543-210</p>
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 social"  style="padding:0px;">
+			<h2>CONNECT WITH US</h2>
+			<ul>
+				<li><a href="#" title="Facebook"><img src="images/facebook.png" alt="Facebook"></a></li>
+				<li><a href="#" title="Dribbble"><img src="images/dribbble.png" alt="Dribbble"></a></li>
+				<li><a href="#" title="Pinterest"><img src="images/pinterest.png" alt="Pinterest"></a></li>
+				<li><a href="#" title="Linkedin"><img src="images/linkedin.png" alt="Linkedin"></a></li>
+				<li><a href="#" title="Skype"><img src="images/skype.png" alt="Saiba Mais"></a></li>
+				<li><a href="#" title="Sharethis"><img src="images/sharethis.png" alt="Sharethis"></a></li> 
+			<ul>
+		</div>
+	</div>
+</div>
+
+<div class="row"  style="background:#e8ebf1; padding-bottom:20px;">
+	<div class="container">
+		<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12" style="padding:0px;">
+			© Copyright 2012 - BisLite Inc. All rights reserved. Some free icons used here are created by Brankic1979.com. 
+			Client Logos are copyright and trademark of the respective owners / companies.
+		</div>
+		<div class="col-lg-3 col-md-9 col-sm-12 col-xs-12" style="padding-left:20px;">
+			<a href="index.php"><img src="images/logo.png" alt="Logo BisLite" title="BisLite"></a>
+		</div>
+	</div>
+</div>
+
+</body>
+
+<script src='js/jquery.min.js'></script> 
+<script src='js/bootstrap.min.js'></script>
+<script>
+;
+(function ($, window, undefined) {
+    var $allDropdowns = $();
+    $.fn.dropdownHover = function (options) {
+        if ('ontouchstart' in document)
+            return this;
+        $allDropdowns = $allDropdowns.add(this.parent());
+        return this.each(function () {
+            var $this = $(this), $parent = $this.parent(), defaults = {
+                    delay: 500,
+                    hoverDelay: 0,
+                    instantlyCloseOthers: true
+                }, data = {
+                    delay: $(this).data('delay'),
+                    hoverDelay: $(this).data('hover-delay'),
+                    instantlyCloseOthers: $(this).data('close-others')
+                }, showEvent = 'show.bs.dropdown', hideEvent = 'hide.bs.dropdown', settings = $.extend(true, {}, defaults, options, data), timeout, timeoutHover;
+            $parent.hover(function (event) {
+                if (!$parent.hasClass('open') && !$this.is(event.target)) {
+                    return true;
+                }
+                openDropdown(event);
+            }, function () {
+                window.clearTimeout(timeoutHover);
+                timeout = window.setTimeout(function () {
+                    $this.attr('aria-expanded', 'false');
+                    $parent.removeClass('open');
+                    $this.trigger(hideEvent);
+                }, settings.delay);
+            });
+            $this.hover(function (event) {
+                if (!$parent.hasClass('open') && !$parent.is(event.target)) {
+                    return true;
+                }
+                openDropdown(event);
+            });
+            $parent.find('.dropdown-submenu').each(function () {
+                var $this = $(this);
+                var subTimeout;
+                $this.hover(function () {
+                    window.clearTimeout(subTimeout);
+                    $this.children('.dropdown-menu').show();
+                    $this.siblings().children('.dropdown-menu').hide();
+                }, function () {
+                    var $submenu = $this.children('.dropdown-menu');
+                    subTimeout = window.setTimeout(function () {
+                        $submenu.hide();
+                    }, settings.delay);
+                });
+            });
+            function openDropdown(event) {
+                window.clearTimeout(timeout);
+                window.clearTimeout(timeoutHover);
+                timeoutHover = window.setTimeout(function () {
+                    $allDropdowns.find(':focus').blur();
+                    if (settings.instantlyCloseOthers === true)
+                        $allDropdowns.removeClass('open');
+                    window.clearTimeout(timeoutHover);
+                    $this.attr('aria-expanded', 'true');
+                    $parent.addClass('open');
+                    $this.trigger(showEvent);
+                }, settings.hoverDelay);
+            }
+        });
+    };
+    $(document).ready(function () {
+        $('[data-hover="dropdown"]').dropdownHover();
+    });
+}(jQuery, window));
+$('.dropdown-toggle').dropdownHover();
+//# sourceURL=pen.js
+</script>
+
+</html>
